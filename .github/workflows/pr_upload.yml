@@ -22,6 +22,8 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: payload
-          path: |
-            ${{ github.event_path }}
-            build/
+          path: ${{ github.event_path }}
+      - uses: actions/upload-artifact@v3
+        with:
+          name: site
+          path: ./build/
