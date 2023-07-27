@@ -5,6 +5,11 @@ sidebar_position: 1
 # Tutorial Intro
 
 Let's **MAYBE?!** discover **Docusaurus in less than 5 minutes**.
+:::note
+
+Hi
+
+:::
 
 ## Getting Started
 
