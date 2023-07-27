@@ -39,6 +39,7 @@ Run the development server:
 cd my-website
 npm run start
 ```
+abcd
 
 The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
