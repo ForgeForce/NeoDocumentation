@@ -19,11 +19,7 @@ jobs:
         run: npm install
       - name: Build website
         run: npm run build
-      - uses: actions/upload-artifact@v3
+      - uses: matyrobbrt/cloudflare-pr-previews/upload@v1
+        name: Upload website
         with:
-          name: payload
-          path: ${{ github.event_path }}
-      - uses: actions/upload-artifact@v3
-        with:
-          name: site
-          path: ./build/
+          build-dir: ./build/

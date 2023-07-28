@@ -5,11 +5,16 @@ on:
     workflows: [PR Commit]
     types:
       - completed
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   preview:
     runs-on: ubuntu-latest
     steps:
-      - uses: matyrobbrt/cloudflare-pr-previews@main
+      - uses: matyrobbrt/cloudflare-pr-previews@v1
         with:
           gh_app_key: ${{ secrets.GH_APP_KEY }}
           gh_app_name: ${{ secrets.GH_APP_NAME }}
