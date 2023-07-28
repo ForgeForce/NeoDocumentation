@@ -8,7 +8,7 @@ Hello world!
 :::
 
 :::caution
-Be careful, here be dragons!
+Be careful, here be dragons! I mean, here be welsh!
 :::
 Let's discover **Docusaurus in less than 5 minutes**.
 
