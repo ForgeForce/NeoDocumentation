@@ -3,7 +3,13 @@ sidebar_position: 1
 ---
 
 # Tutorial Intro
+:::info
+Hello world! Or.. not. kk
+:::
 
+:::caution
+Be careful, here be dragons! I mean, here be welsh!
+:::
 Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
