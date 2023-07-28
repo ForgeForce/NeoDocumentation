@@ -6,6 +6,10 @@ sidebar_position: 1
 :::info
 Hello world! 
 :::
+
+:::caution
+Be careful, here be dragons!
+:::
 Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
