@@ -1,5 +1,5 @@
 name: 'Pull Request Previews'
-
+run-name: Upload previews from workflow run ${{ github.event.workflow_run.id }}
 on:
   workflow_run:
     workflows: [PR Commit]
